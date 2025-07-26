@@ -1,0 +1,263 @@
+header {
+    background-image: url("img/header.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+padding: 20px;
+}
+
+header h3:hover {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+.menu h2 {
+    background-image: url("img/nav\ h2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    gap:  0px;
+}
+
+.menu ul {
+    background-image: url("img/nav.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    gap: 17%;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: center;
+}
+
+
+#modulos {
+
+    background-image: url("img/cards.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+#modulos h2:hover {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+.card {
+    background-color: rgb(28, 134, 134);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: grid;
+
+    justify-content: center;
+   border: 1px solid;
+   padding: 20px;
+   border-style: dashed;
+   margin: 20px auto;
+   width: 26%;
+  
+}
+
+.card h2 {
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card h2:hover {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+#feedbacks {
+    text-align: center;
+    background-color: black;
+
+
+
+}
+
+.aluno {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border-radius: 19px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid;
+    padding:  15px;
+    border-style: dashed;
+    display: grid;
+    margin: 20px auto;
+    justify-content: center;
+    width: 25%;
+}
+
+.aluno h2:hover {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+body h2 {
+    text-align: center;
+}
+
+#precos {
+background-image: url("img/bitcoin.png"), url("img/pix.png"), url("img/qrcode.jpg");
+background-position:bottom right, bottom,top right;
+background-repeat: no-repeat;
+background-size: 350px, 350px, 350px;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 21px;
+
+}
+
+#precos h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    box-sizing:border-box;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: red;
+    padding: 12px;
+    width: fit-content;
+}
+
+#precos h2:hover {
+    color: aquamarine;
+    transition: 3.0s ease;
+}
+
+#lugares {
+    background-color:black;
+border-style: dashed;
+padding: 11px;
+border-radius: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+box-sizing: border-box;
+border: 1px solid;
+border-color: rgb(255, 255, 255);
+}
+
+#lugares h2:hover {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+#lugares ul {
+    padding: 16px;
+}
+
+#sobre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: dashed;
+    padding: 11px;
+    width: fit-content;
+    margin: 20px auto;
+    
+}
+
+#sobre h2 {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+#introducao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.whats {
+    position: fixed;
+    bottom: 8px;
+    left: 7px;
+}
+
+.icone {
+    height: 60px;
+    cursor: pointer;
+    
+}
+
+#mensagem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 15px;
+    bottom: 80px;
+text-align: center;
+     position: fixed;
+}
+
+#frase {
+    border: 1px solid red;
+    border-radius: 15px;
+    
+    
+}
+
+#frase :hover {
+    color: aquamarine;
+    transition: 3.0s;
+}
+
+
+.motivation {
+  width: 360px;
+  height: 360px;
+  background-image: url("img/motivation.png");
+background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  border-radius: 25px;
+  padding: 12px;
+  margin: 12px auto;
+ transition: 3.0s;
+}
+
+.motivation p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.motivation:hover {
+    background-image: url("img/icone\ pagina.png");
+}
+
+
